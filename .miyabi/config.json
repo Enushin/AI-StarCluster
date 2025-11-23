@@ -1,0 +1,30 @@
+{
+  "version": "1.0.0",
+  "project": {
+    "name": "AI-StarCluster",
+    "repository": {
+      "owner": "Enushin",
+      "name": "AI-StarCluster",
+      "url": "https://github.com/Enushin/AI-StarCluster"
+    }
+  },
+  "agents": {
+    "enabled": true,
+    "autoAssign": true
+  },
+  "labels": {
+    "useShikigaku": true,
+    "categories": [
+      "type",
+      "priority",
+      "status",
+      "size",
+      "scope"
+    ]
+  },
+  "workflow": {
+    "autoCreateBranch": true,
+    "branchPrefix": "feature/",
+    "requireReview": false
+  }
+}
